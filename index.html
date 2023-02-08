@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+</head>
+<body>
+        <header>
+            <div class="container p-5 ">
+                <h3>Bookmarker</h3>
+            </div>
+        </header>
+        <div class="container">
+            <div class="well">
+                <div class="column">
+                    <h2>Bookmark your favorite sites </h2>
+                    <p class="pt-5">Site Name</p>
+                    <input id="siteName" placeholder="Bookmark Name" type="text" class="m-auto" name="siteName">
+                    <p class="alert alert-error m-auto" id="nameError" style="display: none;" ></p>
+                    <p class="pt-5">Site URL</p>
+                    <input id="siteUrl" placeholder="website URL" type="text" class="m-auto" name="siteUrl">
+                    <p class="alert alert-error m-auto" id="urlError" style="display: none;"></p>
+                    <div class="m-auto p-3">
+                            <button class="btn btn-primary d-block">Submit</button>
+                            <button class="btn btn-primary d-none">Update</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="bookmarkList" class="column">
+                
+            </div>
+        </div>
+        <div class="w-75 mx-auto py-2">
+            <table class="table text-center ">
+              <thead>
+                <th>Name</th>
+                <th>Url</th>
+                <th>Update</th>
+                <th>Delete</th>
+                <th>Vist</th>
+              </thead>
+              <tbody id="tableBody">
+      
+              </tbody>
+            </table>
+      </div>
+        <footer class="mt-5">
+            <div class="container">
+                <p>© 2019 Bookmarker Inc.</p>
+            </div>
+        </footer>
+        <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+*,::before,::after{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header .container {
+    color: rgb(170, 170, 170);
+    font-size: 25px;
+    padding: 20px;
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+.container {
+    width: 80%;
+    margin: 15px auto;
+    padding: 0px 15px;
+}
+.well {
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 30px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+input {
+    width: 80%;
+    font-size: 15px;
+    max-height: 2em;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-image: initial;
+    padding: 5px;
+    margin: auto;
+}
+input:hover {
+    box-shadow: rgb(136, 136, 136) 0px 0px 12px -7px;
+}
+alert-error {
+    background-color: rgb(255, 178, 178);
+    color: rgb(109, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(109, 0, 0);
+    border-image: initial;
+}
+.alert {
+    width: 80%;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.btn-primary {
+    background-color: rgb(17, 103, 196);
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(17, 103, 196);
+    border-image: initial;
+}
+.btn {
+    font-size: 15px;
+    cursor: pointer;
+    max-width: fit-content;
+    padding: 10px 15px;
+    margin: 15px 5px;
+    border-radius: 5px;
+}
+.btn:hover {
+    box-shadow: rgb(136, 136, 136) 2px 5px 3px 0px;
+}
+footer .container {
+    font-size: 14px;
+    padding: 20px;
+    border-top: 1px solid rgb(153, 153, 153);
+}
+footer p {
+    color: rgb(170, 170, 170);
+}
